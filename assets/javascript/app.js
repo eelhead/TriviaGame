@@ -7,8 +7,8 @@ var triviaQuestions = [{
 	answerList: ["88", "102", "66", "122"],
 	answer: 0
 },{
-	question: "What was Pixar's first feature-length film that was released in 1995?",
-	answerList: ["Toy Story", "A Bug's Life", "Monster's Inc", "Finding Nemo"],
+	question: "When did the Beatles arrive to the U.S.?",
+	answerList: ["1964", "1965", "1966", "1967"],
 	answer: 0
 },{
 	question: "Which one of Prince's songs reached highest on the music charts?",
@@ -60,3 +60,19 @@ var triviaQuestions = [{
 	answer: 2
 }];
 
+var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10', 'question11', 'question12', 'question13', 'question14', 'question15'];
+var currentQuestion; 
+var correctAnswer; 
+var incorrectAnswer;
+var unanswered;
+var seconds;
+var time;
+var answered;
+var userselect;
+
+var messages = {
+	correct: "Yes, correct!",
+	incorrect: "Nope, that's not it.",
+	endtime: "Out of time!!!!",
+	finished: "OK! Let's check out your score!"
+}
