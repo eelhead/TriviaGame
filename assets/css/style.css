@@ -8,6 +8,23 @@ header{
 	margin-bottom: 20px;
 }
 
+h1{
+	color: #3be228;
+}
+
+h2{
+	color:#3be228;
+}
+
+h3{
+	color: #3be228;
+}
+
+div{
+	display: block;
+	color: #3be228;
+}
+
 .btn-primary,.reset{
 	background-color: #313477;
 	color: white;
@@ -17,7 +34,7 @@ header{
 	margin-top: 100px;
 }
 .btn-primary:hover, .reset:hover{
-	background-color: #202364;
+	background-color: #3be228;
 }
 
 .container{
